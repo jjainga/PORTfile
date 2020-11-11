@@ -12,7 +12,7 @@ return (
         <Banner />
         <main className="container">
           <section className="row">
-            <div className="col-md-8 rounded position-center">
+            <div className="col-md-6 rounded position-center border m-1">
               <div className="row ">
                 <div className="col-md-12">
                   <h2>Personal Bio</h2>

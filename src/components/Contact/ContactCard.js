@@ -1,11 +1,11 @@
 import React from "react";
-import Headshot from "../../images/HeadShot";
+import Headshot from "../../Images/HeadShot.jpg";
 
 const ContactCard = () => {
 
 
   return(  <figure className="card rounded col-4 text-center d-inline-block" style={{width: 400}}>
-                <img className="card-img-top" src={Headshot} alt="Me" />
+                <img className="card-img-top rounded" src={Headshot} alt="Me" />
                 <div className="card-body">
                   <h5 className="card-title text-center">Contact Info</h5>
                   <a className="m-2 p-2" href="Mailto:jjainga@gmail.com" title="jjainga@gmail.com"><img src="https://img.icons8.com/fluent/48/000000/email-open.png" /></a>
