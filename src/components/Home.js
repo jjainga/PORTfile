@@ -2,20 +2,27 @@ import React, {useSate} from "react";
 import Banner from "./Banner/Banner"
 import ContactCard from "./Contact/ContactCard"
 
+const GREY = "#9E9E9E"
+
+const style = {
+  div:{
+    boxshadow: `3px 5px 3px ${GREY}`
+  }
+}
 
 const Home = () => {
-
 
 
 return (
         <div>
         <Banner />
         <main className="container">
-          <section className="row">
-            <div className="col-md-6 rounded position-center border m-1">
+          <section className="row m-1 p-1">
+            <div className="col-md-6 rounded position-center border m-3 p-3" style={style.div}>
               <div className="row ">
                 <div className="col-md-12">
                   <h2>Personal Bio</h2>
+                  <hr/> 
                 </div>
               </div>
               <div className="row ">

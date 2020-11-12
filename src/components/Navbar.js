@@ -9,12 +9,12 @@ function NavBar() {
 
   return (
     <ul className="nav nav-tabs">
-      <li className="nav-item">
+      <li className="nav-item hoverable">
         <Link to="/" className={location.pathname === "/" ? "nav-link active" : "nav-link"}>
           About
         </Link>
       </li>
-      <li className="nav-item">
+      <li className="nav-item hoverable">
         <Link
           to="/Contact"
           className={location.pathname === "/Contact" ? "nav-link active" : "nav-link"}
@@ -22,7 +22,7 @@ function NavBar() {
           Resume
         </Link>
       </li>
-      <li className="nav-item">
+      <li className="nav-item hoverable">
         <Link
           to="/Projects"
           className={location.pathname === "/Projects" ? "nav-link active" : "nav-link"}

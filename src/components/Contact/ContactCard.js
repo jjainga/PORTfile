@@ -4,7 +4,7 @@ import Headshot from "../../Images/HeadShot.jpg";
 const ContactCard = () => {
 
 
-  return(  <figure className="card rounded col-4 text-center d-inline-block" style={{width: 400}}>
+  return(  <figure className="card rounded col-4 text-center d-inline-block shadow-lg p-3 mb-5" style={{width: 400}}>
                 <img className="card-img-top rounded" src={Headshot} alt="Me" />
                 <div className="card-body">
                   <h5 className="card-title text-center">Contact Info</h5>
