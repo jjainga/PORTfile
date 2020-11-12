@@ -1,5 +1,5 @@
 import React from "react"
-import BannerImage from "../../Images/Banner.jpg"
+import BannerImage from "./Banner.jpg"
 
 
 
