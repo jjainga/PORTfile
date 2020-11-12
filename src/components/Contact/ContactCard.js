@@ -1,5 +1,5 @@
 import React from "react";
-import Headshot from "../../Images/HeadShot.jpg";
+import Headshot from "./HeadShot.jpg";
 
 const ContactCard = () => {
 
