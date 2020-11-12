@@ -2,16 +2,16 @@ import React from "react"
 import LanguageList from "./languageList"
 
 //import images
-import CodingProblem from "../../Images/Coding_Problems.PNG"
-import EmployeeDirectory from "../../Images/Employee_Directory_App.PNG"
-import EmployeeManagementSystem from "../../Images/Employee_Management_System.PNG"
-import Notes from "../../Images/Notes.PNG"
-import PasswordGenerator from "../../Images/Password_Generator.PNG"
-import PersonalPortfolio from "../../Images/Personal_Portfolio.PNG"
-import Pupster from "../../Images/Pupster.PNG"
-import TestYourKnowledge from "../../Images/Test_Your_Knowledge.PNG"
-import ToDoApp from "../../Images/To-Do-App.PNG"
-import WeatherApp from "../../Images/Weather-App.PNG"
+import CodingProblem from "./Coding_Problems.PNG"
+import EmployeeDirectory from "./Employee_Directory_App.PNG"
+import EmployeeManagementSystem from "./Employee_Management_System.PNG"
+import Notes from "./Notes.PNG"
+import PasswordGenerator from "./Password_Generator.PNG"
+import PersonalPortfolio from "./Personal_Portfolio.PNG"
+import Pupster from "./Pupster.PNG"
+import TestYourKnowledge from "./Test_Your_Knowledge.PNG"
+import ToDoApp from "./To-Do-App.PNG"
+import WeatherApp from "./Weather-App.PNG"
 
 
 
