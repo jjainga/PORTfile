@@ -28,7 +28,7 @@ return (
               <div className="row ">
                 <div className="col-md-12">
                   <p>
-                    My name is Joshua Jainga! I have my Bachelor's in Economics and I am currently an operations manager and have been trying to find what I want to do with my career. Through my experience at work I have found skills that I know will take me closer to my goal. I am currently learning skills that align more with what my passions and interests are in the hopes that I will be able to take the next step in my career.
+                    My name is Joshua Jainga! I have my Bachelor's in Economics and I am currently an operations manager and have been trying to find what I want to do with my career.
                   </p>
                   <p>I am an aspiring Full Stack Developer leveraging my economics and operations management background to help solve complex problems in order to improve user experience. I am completing a full stack development program through the University of Washington with newly developed skills in HTML5, CSS, Javascript, jQuery, Node.js, Express.js, React.js, MySQL, MongoDB and self-taught in Python. I am quick to learn, integrate and teach new knowledge to benefit the team I am supporting. I am excited to continue to grow my skills to build a better experience for everyone.</p>
                   <p>
