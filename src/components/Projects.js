@@ -7,7 +7,7 @@ const Projects = () => {
 
     const [ProjectState, setProjectState] = useState({
         projects: [],
-        sortProjects: []
+        sortProjects: [],
     })
 
     useEffect(() => {
