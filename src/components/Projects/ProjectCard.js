@@ -12,6 +12,8 @@ import Pupster from "./Pupster.PNG"
 import TestYourKnowledge from "./Test_Your_Knowledge.PNG"
 import ToDoApp from "./To-Do-App.PNG"
 import WeatherApp from "./Weather-App.PNG"
+import PORTfile from "./PORTfile.PNG"
+import GoogleBooks from "./GoogleBooks.PNG"
 
 
 
@@ -46,7 +48,12 @@ const ProjectCard = (props) => {
                 
             case "To-Do-App":
                 return ToDoApp
-                
+            case "Test-Your-Knowledge":
+                return TestYourKnowledge
+            case "my_google_book_search":
+                return GoogleBooks
+            case "PORTfile":
+                return PORTfile
             default:
                 return "https://i1.wp.com/gchs.org/wp-content/uploads/Image-Coming-Soon-Placeholder.png?resize=350%2C240&ssl=1"
        }}
