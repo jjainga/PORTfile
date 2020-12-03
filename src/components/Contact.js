@@ -9,7 +9,6 @@ return (
 <div classNameName="container m-auto" >
     <Banner />
     <div className="row text-center m-auto">
-    <ContactCard />
     <Resume />
     </div>
 </div>
