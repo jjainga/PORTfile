@@ -102,7 +102,7 @@ console.log(props)
         </div>
         <hr />
         <h1 className="text-info">In-progress Projects</h1>
-        <br /> 
+        
         <div className="d-inline-block m-auto">
             {repoState.repo.map(notfavObj => 
                 <div className="card col-12 ProjectCard text-center m-1 p-1 d-inline-block" key={notfavObj.id}>

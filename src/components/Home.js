@@ -32,7 +32,7 @@ return (
                   </p>
                   <p>I am an aspiring Full Stack Developer leveraging my economics and operations management background to help solve complex problems in order to improve user experience. I am completing a full stack development program through the University of Washington with newly developed skills in HTML5, CSS, Javascript, jQuery, Node.js, Express.js, React.js, MySQL, MongoDB and self-taught in Python, .Net, C#, ASP.NET Core. I am quick to learn, integrate and teach new knowledge to benefit the team I am supporting. I am excited to continue to grow my skills to build a better experience for everyone.</p>
                   <p>
-                    In my free time you can find me gaming (i have been addicted to Octopath Travaler and Dragon Quest XI lately), hiking (I have been on most trails off of I-90 west of Snoqulmie Pass), taking photos and spending time with my girlfriend (finally able to go basck to Disney now that we are vaccinated) and our puppy, Lexi. I have recently started working on my car to become more knowledgeable in the engineering behind how my car actually works!
+                    In my free time you can find me gaming (I have been addicted to Octopath Travaler and Dragon Quest XI lately), hiking (I have been on most trails off of I-90 west of Snoqulmie Pass), taking photos and spending time with my girlfriend (finally able to go basck to Disney now that we are vaccinated) and our puppy, Lexi. I have recently started working on my car to become more knowledgeable in the engineering behind how my car actually works!
                   </p>
                   <p>Feel free to explore my projects and reach out to me with any questions!</p>
                 </div>
