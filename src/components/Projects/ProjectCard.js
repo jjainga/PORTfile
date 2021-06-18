@@ -85,26 +85,28 @@ console.log(props)
    
        repoState.repo != undefined ?
        <div className="d-inline-block">
-           <h1>Favorites</h1>
+           <h1 className="text-info">Favorites</h1>
         <div className="d-inline-block m-auto">
             {pinnedState.pinned.map(projectObj => 
-                <div className="card col-3 ProjectCard text-center m-1 p-1 d-inline-block" key={projectObj.id}>
-                    <img className="card-img-top border" src={thumbnail(projectObj.name)} alt={projectObj.name} />
+                <div className="card col-12 ProjectCard text-center m-3 p-3 d-inline-block" key={projectObj.id}>
+                    <img className="card-img-top border img-fluid" src={thumbnail(projectObj.name)} alt={projectObj.name}/>
                     <div className="card-body">
                         <h5 className="card-title">{projectObj.name}</h5>
                         <a href={projectObj.homepage || projectObj.html_url} className="btn btn-primary mr-1">Check it out!</a>
                         <a href={projectObj.html_url} className="btn btn-primary ml-1">Github Repo!</a>
-                        <p className="card-text">Description: {projectObj.description}</p>
+                        <p className="card-text inline-block">Description: {projectObj.description}</p>
                         <LanguageList props={projectObj.ProjLanguages}/>
                     </div>
-                </div>)}
+                </div>
+                )}
         </div>
         <hr />
-        <h1>Working Projects</h1>
+        <h1 className="text-info">In-progress Projects</h1>
+        <br /> 
         <div className="d-inline-block m-auto">
             {repoState.repo.map(notfavObj => 
-                <div className="card col-3 ProjectCard text-center m-1 p-1 d-inline-block" key={notfavObj.id}>
-                    <img className="card-img-top border" src={thumbnail(notfavObj.name)} alt={notfavObj.name} />
+                <div className="card col-12 ProjectCard text-center m-1 p-1 d-inline-block" key={notfavObj.id}>
+                    <img className="card-img-top border img-fluid" src={thumbnail(notfavObj.name)} alt={notfavObj.name} />
                     <div className="card-body">
                         <h5 className="card-title">{notfavObj.name}</h5>
                         <a href={notfavObj.homepage || notfavObj.html_url} className="btn btn-primary mr-1">Check it out!</a>

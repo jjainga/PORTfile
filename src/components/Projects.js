@@ -37,7 +37,7 @@ const Projects = () => {
       return (
           <div>
               <Banner />
-              <section className="row mx-auto text-center" style={{width: 1400}}>
+              <section className="row mx-auto text-center" >
                 <ProjectCard props={ProjectState.projects} />
               </section>
           </div>

@@ -9,7 +9,7 @@ return (
 <div classNameName="container m-auto" >
     <Banner />
     <div className="row text-center m-auto">
-    <Resume />
+    <Resume className="col-12 m-auto" />
     </div>
 </div>
 
